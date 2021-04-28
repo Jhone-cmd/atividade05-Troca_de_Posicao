@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5 - Troca de Posição</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+    body{
+       background-color: rgba(65, 65, 65, 0.87);
+    }   
+    h1{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: italic;
+    }
+    </style>
+</head>
+<body>
+    <h1>Tabela de Nomes</h1>
+    <br>
+     <table class="table table-dark table-striped">
+        <thead>
+            <tr>
+                <th>Linha</th>
+                <th>Nome do Aluno</th>
+            </tr>
+        </thead>
+        <tbody id="corpoTabela"></tbody>
+    </table>
+    
+    <ul class="pagination justify-content-center" id="paginacao">
+       
+    </ul>
+    <input type="hidden" value="" id="paginaAtual">
+
+    <script src="index.js"></script>
+</body>
+</html>
